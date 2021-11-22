@@ -37,19 +37,21 @@
     border-radius: 4px;
     min-width: 10rem;
     min-height: 2rem;
-    border: 2px solid rgb(52, 113, 211);
+    border: 2px solid rgb(49, 49, 65);
     background-color: white;
     font-size: 1rem;
     margin: 0 1rem;
-    color:rgb(52, 113, 211);
+    color:rgb(49, 49, 65);
     box-shadow: 1px 2px 1px 1px rgb(75, 74, 74);
 }
 
 .filter-btn:hover {
     background-color: rgb(52, 113, 211);
     color:white;
-    transition: all ease 0.7s;
+    transition: all ease 0.4s;
     cursor: pointer;
+    box-shadow: none;
+    border:2px solid rgb(52, 113, 211);
 }
 
 .output {
